@@ -1,0 +1,27 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	background-image:url("../imagenes/Abujardado Gris.JPG");
+	background-repeat:no-repeat;
+    max-width:100%;
+	max-height:100%;
+	display:block;
+	background-size:100% 100%;
+	background-attachment:scroll;
+	background-attachment:fixed;
+}
+div.dataTables_wrapper 
+{
+	width: 100%;
+	margin: 0 auto;
+}
+div.dataTables_wrapper 
+{
+	width: 800px;
+	margin: 0 auto;
+	/*margin-bottom: 3em;*/
+ }

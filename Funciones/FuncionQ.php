@@ -11,7 +11,7 @@
 	$tabla = " ";
 	while($fila = mysqli_fetch_assoc($resultados))
 	{
-		$editar = '<a href=\"#\" onclick=\"return confirm(\'¿Desea editar este registro?\')\" data-toggle=\"tooltip\" data-placement=\"center\" class=\"btn btn-primary btn-ok glyphicon glyphicon-pencil\">Editar</a>';
+		$editar = '<a href=\"EditarP_II.php?codigo='.$fila["idquimico"].'\" onclick=\"return confirm(\'¿Desea editar este registro?\')\" data-toggle=\"tooltip\" data-placement=\"center\" class=\"btn btn-primary btn-ok glyphicon glyphicon-pencil\">Editar</a>';
 		$eliminar = '<a href=\"eliminar.php?codigo='.$fila["idquimico"].'\" onclick=\"return confirm(\'¿Desea eliminiar este registro?\')\" data-toggle=\"tooltip\" data-placement=\"center\" class=\"btn btn-danger btn-ok glyphicon glyphicon-trash\">Eliminar</a>';
 		$tabla.='{
 			"idquimico": "'.$fila['idquimico'].'",

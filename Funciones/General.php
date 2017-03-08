@@ -10,7 +10,7 @@
 	//guardamos en un array multidimensional todos los datos de la consulta.
 	$i = 0;
 	$tabla = " ";
-	while($fila = mysql_fetch_assoc($resultados, MYSQLI_BOTH))
+	while($fila = mysql_fetch_assoc($resultados))
 	{
 		$editar = '<a class=\"btn btn-primary btn-ok glyphicon glyphicon-pencil\">Editar</a>';
 		$eliminar = '<a class=\"btn btn-danger btn-ok glyphicon glyphicon-trash\">Eliminar</a>';
